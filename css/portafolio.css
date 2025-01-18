@@ -1,0 +1,371 @@
+
+/* fuente */
+body {
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-variation-settings: "wdth" 100;
+}
+* {
+   /* overflow:hidden; */
+}
+/* fin fuente */
+
+/* media query */
+@media only screen and (min-width: 1441px) {
+    .boton {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1281px) {
+}
+
+@media only screen and (max-width: 1025px) {
+    .txtBodyT {
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+
+    .txtSmallT {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .boton {
+        margin-top: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .txtBodyT {
+        font-size: 24px !important;
+        line-height: 26px !important;
+    }
+
+    .txtSmallT {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .boton {
+        margin-top: 10px !important;
+    }
+
+    .izquierda {
+        text-align: center !important;
+    }
+    
+    .derecha {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .txtBodyT {
+        font-size: 30px !important;
+        line-height: 32px !important;
+    }
+
+    .txtSmallT {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .txtBodyT {
+        font-size: 50px !important;
+        line-height: 54px !important;
+    }
+
+    .txtSmallT {
+        font-size: 24px !important;
+        line-height: 28px !important;
+    }
+    .boton {
+        margin-top: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .txtBodyT {
+        font-size: 46px !important;
+        line-height: 50px !important;
+    }
+
+    .txtSmallT {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .txtSmall {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .txtHeader {
+        font-size: 70px !important;
+        line-height: 74px !important;
+    }
+
+    .txtBody {
+        font-size: 28px !important;
+        line-height: 32px !important;
+    }
+}
+
+@media only screen and (max-width: 391px) {
+    .txtBodyT {
+        font-size: 38px !important;
+        line-height: 42px !important;
+    }
+
+    .txtSmallT {
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+
+    .txtSmall {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .txtHeader {
+        font-size: 64px !important;
+        line-height: 68px !important;
+    }
+
+    .txtBody {
+        font-size: 22px !important;
+        line-height: 26px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 321px) {
+    .txtBodyT {
+        font-size: 26px !important;
+        line-height: 30px !important;
+    }
+
+    .txtSmallT {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .txtSmall {
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+
+    .txtHeader {
+        font-size: 50px !important;
+        line-height: 54px !important;
+    }
+
+    .txtBody {
+        font-size: 20px !important;
+        line-height: 24px !important;
+    }
+
+    .txtTitle {
+        font-size: 20px !important;
+        line-height: 22px !important;
+    }
+}
+/* fin media query */
+
+/* navbar */
+.menu {
+    background-color: transparent !important;
+}
+
+.menuOrden {
+    justify-content: flex-end !important;
+}
+.navbar-toggler {
+    background-color: rgba(255,255,255, 0.5);
+}
+/* fin navbar */
+
+/* modal */
+.centro {
+    text-align: center;
+}
+
+.izquierda {
+    text-align: left;
+}
+
+.derecha {
+    text-align: right;
+}
+
+.modal-header {
+    border-bottom: 0px !important;
+}
+
+.modal-content {
+    background-color: rgba(255,255,255, 0.4);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0px 80px 0 rgba(192, 206, 221, 0.37);
+}
+/* modal */
+
+/* boton */
+.boton {
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    background-color:rgba(255,255,255,0.2);
+}
+
+a.boton:hover {
+    border: 1px solid #fff !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    background-color:rgba(255,255,255) !important;
+}
+
+a.nav-link:hover {
+    font-weight: bold;
+}
+
+a.contacto:hover {
+    background-color:rgba(255,255,255,0.5);
+    border-radius: 8px;
+    border: 1px solid #8a8a8a;
+}
+/* fin boton */
+
+/* textos */
+.txtEspacio {
+    letter-spacing: 4px;
+}
+
+.txtSmall {
+    font-size: 20px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.txtSmallT {
+    font-size: 20px;
+    text-align: left;
+    line-height: 24px;
+}
+
+.txtBody {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+.txtBodyT {
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.txtTitle {
+    font-size: 34px;
+    line-height: 38px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.txtHeader {
+    font-size: 80px;
+    line-height: 84px;
+    font-weight: bold;
+    text-align: left;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #212529;
+}
+/* fin textos */
+
+/* color */
+.blanco {
+    color: #fff;
+}
+/* fin color */
+
+/* espacios */
+.topEspacio {
+    margin-top: 20px;
+}
+
+.topEspacio2 {
+    margin-top: 40px;
+}
+
+.espacioTarjeta {
+    margin-top: 20px;
+}
+/* fin espacios */
+
+/* img */
+.fondo {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.mockupCelular {
+    max-width: 170px;
+    width: 95%;
+}
+
+.correo {
+    max-width: 170px;
+    width: 95%;
+}
+
+.banner {
+    width: 95%;
+}
+
+.bordes {
+    border-radius: 10px;
+}
+
+.display120 {
+    width: 95%;
+    max-width: 67px;
+}
+
+.display160 {
+    width: 95%;
+    max-width: 90px;
+}
+
+.display300 {
+    width: 95%;
+    max-width: 170px;
+}
+
+.display320 {
+    width: 95%;
+    max-width: 190px;
+}
+
+.display728 {
+    width: 95%;
+    max-width: 360px;
+}
+
+.flow {
+    max-width: 500px;
+    width: 95%;
+}
+/* fin img */
