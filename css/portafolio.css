@@ -52,14 +52,6 @@ body {
     .boton {
         margin-top: 10px !important;
     }
-
-    .izquierda {
-        text-align: center !important;
-    }
-    
-    .derecha {
-        text-align: center !important;
-    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -190,7 +182,7 @@ body {
 }
 /* fin navbar */
 
-/* modal */
+/* alineaciones */
 .centro {
     text-align: center;
 }
@@ -202,7 +194,9 @@ body {
 .derecha {
     text-align: right;
 }
+/* alineaciones */
 
+/* modal */
 .modal-header {
     border-bottom: 0px !important;
 }
@@ -247,14 +241,12 @@ a.contacto:hover {
 }
 
 .txtSmall {
-    font-size: 20px;
-    text-align: left;
-    line-height: 24px;
+    font-size: 40px;
+    line-height: 44px;
 }
 
 .txtSmallT {
     font-size: 20px;
-    text-align: left;
     line-height: 24px;
 }
 
@@ -271,15 +263,13 @@ a.contacto:hover {
 .txtTitle {
     font-size: 34px;
     line-height: 38px;
-    text-align: left;
     font-weight: bold;
 }
 
 .txtHeader {
-    font-size: 80px;
-    line-height: 84px;
+    font-size: 130px;
+    line-height: 134px;
     font-weight: bold;
-    text-align: left;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 700;
